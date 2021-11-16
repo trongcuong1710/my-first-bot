@@ -1,0 +1,10 @@
+{
+  "name": "my-first-bot",
+  "version": "1.0.0",
+  "description": "my first discord bot",
+  "main": "index.js",
+  "repository": "git@github.com:trongcuong1710/my-first-bot.git",
+  "author": "Cole Doan",
+  "license": "MIT",
+  "private": false
+}

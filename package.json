@@ -6,5 +6,8 @@
   "repository": "git@github.com:trongcuong1710/my-first-bot.git",
   "author": "Cole Doan",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
 }

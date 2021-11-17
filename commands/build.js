@@ -26,7 +26,7 @@ module.exports = {
             const file = `./assets/${name.toLowerCase()}/${category}.json`
 
             if (!fs.existsSync(file)) {
-                interaction.reply({ content: 'nhân vật danh mục này chưa được hỗ trợ', ephemeral: true });
+                interaction.reply({ content: `nhân vật ${name} chưa được hỗ trợ`, ephemeral: true });
                 return;
             }
 

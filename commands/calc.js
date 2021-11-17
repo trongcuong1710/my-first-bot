@@ -16,7 +16,7 @@ module.exports = {
             const expression = interaction.options.getString('expression');
             const result = string(evaluate(expression));
             const embed = new MessageEmbed()
-                .setTitle("Kết Quả Của Bạn Là")
+                .setTitle('Kết Quả Của Bạn Là')
                 .addField('Câu Hỏi', expression)
                 .addField('Câu Trả Lời', result);
             await interaction.reply({ embeds: [embed] });

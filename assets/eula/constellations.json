@@ -1,0 +1,35 @@
+{
+    "embed": {
+        "title": "Eula Constellations",
+        "color": 3777086,
+        "footer": {
+            "text": "A C6 Eula with everything active is 97.7% stronger than C0 in her main rotation."
+        },
+        "fields": [
+            {
+                "name": "__C1 - Tidal Illusion__",
+                "value": "***Using Grimheart stacks give 30% PHYS bonus.***\n\nWhile the bonus is only active AFTER you Hold E, it provides a boost to the second N4 and the Lightfall detonation (the important part). The uptime is also very good at 18 whole seconds, letting this benefit Eula's downtime rotations as well.\nThe full value of this con fluctuates ever so slightly based on weapon and artifacts, but generally stays within the 10-12% range.\n\nDPS increase: **+10.5%**"
+            },
+            {
+                "name": "__C2 - Lady of Seafoam__",
+                "value": "***Hold E cooldown reduced to 4 seconds.***\n\nThis is a bit of a weird one. The most obvious benefit is that it allows Eula to have less downtime in her personal energy generation. In most rotations, Eula uses Hold E near the middle or end of her rotation, meaning she has a 6-7 window where she can't E at all, thus losing energy.\nWith C2, she can expect around 2 more tap Es over the course of 20 seconds, which is valuable energy.\nHer downtime rotation also gains a slight DPS boost, replacing her dash cancels with E cancels. This increase is so miniscule it's even less than C5 and might as well not even be considered.\nThat said, this con also does nothing for her main Burst rotation, meaning it only has benefits if you need more than 1 rotation."
+            },
+            {
+                "name": "__C3 - Lawrence Pedigree__",
+                "value": "***+3 levels to Elemental Burst***\n\nNot much to say, it's cracked! Eula's burst is a significant portion of her damage, so 3 whole talent levels to it is huge.\nDPS increase: **+17.8%**\nCumulative DPS increase: **+30.2%**"
+            },
+            {
+                "name": "__C4 - The Obstinacy of One's Inferiors__",
+                "value": "***Lightfall gains 25% DMG bonus to enemies below 50% HP.***\n\nHonestly quite underwhelming, mostly due to its ADDITIVE bonus compounded onto a conditional effect.\nThe bonus itself is quite small considering we're stacking an obscene amount of PHYS% at this point. If it was multiplicative, it would be AMAZING, but it's not.\n\nDPS increase: **+6.0%**\nCumulative DPS increase: **+38%**"
+            },
+            {
+                "name": "__C5 - Chivalric Quality__",
+                "value": "***+3 levels to Elemental Skill***\n\nNothing to write home about. The damage increase is nothing, and the RES shred is also nothing.\n\nDPS increase: **+1.8%**"
+            },
+            {
+                "name": "__C6 - Noble Obligation__",
+                "value": "***Lightfall gains 5 stacks, and each attack has a 50% chance to give another stack.***\n\nWell, C6 is certainly as good as it sounds. It almost doubles our stacks, bringing them up to 26 on average.\nNot only does C6 affect Eula's ceiling, it also alters her damage floor. Eula does not need to be as efficient with her rotation anymore and most importantly, she needs less investment into damage stats to reach competitive damage due to inflated talent multipliers. C6 opens up alleyways into unorthodox team compositions that can focus on amplifying damage or comfort and build 180 ER on Eula to self battery, all while still one shotting floors.\n\nDPS increase: **+40.6%**\nCumulative DPS increase: **+97.7%**"
+            }
+        ]
+    }
+}

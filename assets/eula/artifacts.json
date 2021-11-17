@@ -1,0 +1,29 @@
+{
+    "embed": {
+        "title": "Artifacts Set Comparisons",
+        "description": "Numbers and assumtionps from bit.ly/3zg60e3",
+        "color": 2418005,
+        "fields": [
+            {
+                "name": "Assumptions:",
+                "value": "Constellation = 0, Level = 90, Talent Level = 10"
+            },
+            {
+                "name": "Weapons:",
+                "value": "Serpernt Spines 5 stacks, Levl 90, Supperconduct"
+            },
+            {
+                "name": "Disclaimer:",
+                "value": "This table is calculated with equal substats. Rankings may be different depending on the substat difference between your sets. Use an artifact calculate for most accurate result"
+            },
+            {
+                "name": "Artifact Set (damage as % of Pale Flame(4))",
+                "value": "Pale Flame(4):                                                  100%\nPale Flame(2) BloodStained Chilvary(2):        93.70%\nPale Flame(2) + 18% ATK Set(2):                    93.67%\nGladiator's Finale(4):                                       90.37%\nNoblesse Oblige(4):                                         89.81%\nNobless Oblige(2) Pale Flame(2):                    89.55%"
+            },
+            {
+                "name": "-----------------------------------------------",
+                "value": "- Pale Flame(4) is best in slot across all rotations.\n- Always aim for Pale Flame(4) with ATK% SANDs and ER% substats"
+            }
+        ]
+    }
+}

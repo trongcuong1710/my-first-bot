@@ -7,6 +7,9 @@
   "author": "Cole Doan",
   "license": "MIT",
   "private": false,
+  "engines": {
+    "node": "17.0.1"
+  },
   "dependencies": {
     "@discordjs/builders": "^0.8.2",
     "@discordjs/rest": "^0.1.0-canary.0",

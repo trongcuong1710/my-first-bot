@@ -14,13 +14,22 @@ module.exports = {
         .addStringOption(option =>
             option.setName('content')
                 .setDescription('Nội Dung Cần Dịch')
-                .setRequired(true)),
-
+                .setRequired(true))
+        .addStringOption(option =>
+            option.setName('to')
+                .setDescription('(Optional) Ngôn Ngữ Muốn Dịch Sang. Mặc Định Sẽ Dịch Sang Tiếng Việt')
+                .addChoice('Tiếng Việt', 'vi')
+                .addChoice('English', 'en')
+                .addChoice('French', 'fr')
+                .addChoice('Japanese', 'jp')
+                .addChoice('Spanish', 'es')),
 
     async execute(interaction) {
         try {
             const content = interaction.options.getString('content');
-            const [translation] = await translate.translate(content, 'vi');
+            const target = interaction.options.getString('to') === null
+                ? 'vi' : interaction.options.getString('to');
+            const [translation] = await translate.translate(content, target);
 
             const embed = new MessageEmbed()
                 .setTitle('Dịch Bừa')

@@ -14,9 +14,10 @@ module.exports = {
     async execute(interaction) {
         try {
             const user = interaction.options.getUser('user');
+            console.log(user.displayAvatarURL({ dynamic: true }));
             const embed = new MessageEmbed()
                 .setTitle(`${user.username}'s Avatar`)
-                .setImage(user.avatarURL({ dynamic: true }));
+                .setImage(user.displayAvatarURL({ dynamic: true }));
             await interaction.reply({ embeds: [embed] });
         } catch (e) {
             interaction.reply('đã xảy ra lỗi khi thực thi lệnh này.')

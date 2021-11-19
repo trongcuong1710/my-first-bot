@@ -21,7 +21,8 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
     "deploy": "node -e 'require(\"./deploy-commands\").deploy()'"
   }
 }
